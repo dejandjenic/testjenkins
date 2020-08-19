@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiForecast", "WebApiForecast\WebApiForecast.csproj", "{BEB1B5B8-81C2-4BFA-B8BC-1930C9784985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB1B5B8-81C2-4BFA-B8BC-1930C9784985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB1B5B8-81C2-4BFA-B8BC-1930C9784985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB1B5B8-81C2-4BFA-B8BC-1930C9784985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB1B5B8-81C2-4BFA-B8BC-1930C9784985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E26F35F-A90A-4CF2-8F37-F5A4E351A774}
+	EndGlobalSection
+EndGlobal
