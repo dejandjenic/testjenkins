@@ -24,7 +24,7 @@ stage('Build'){
 
 
 
-stage('Checkout'){
+stage('Kube'){
 steps{
 
 
