@@ -11,10 +11,10 @@ steps{
 
 
 stage('Build'){
-steps{
+	steps{
         
-		sh 'docker build -t jenkins-demo:${BUILD_NUMBER} . '
-}
+			sh 'docker build -t jenkins-demo:${BUILD_NUMBER} . '
+	}
 }
 
 
