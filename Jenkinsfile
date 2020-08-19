@@ -1,5 +1,5 @@
 pipeline{
-agent { label 'my-defined-label' }
+agent { label 'docker-agent' }
 stages{
 
 stage('Checkout'){
