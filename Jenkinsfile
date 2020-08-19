@@ -23,5 +23,18 @@ stage('Build'){
 
 
 
+
+stage('Checkout'){
+steps{
+
+
+
+kubernetesDeploy configs: 'dpl.yaml', kubeConfig: [path: ''], kubeconfigId: 'mykubeconfig', secretName: '', ssh: [sshCredentialsId: '*', sshServer: ''], textCredentials: [certificateAuthorityData: '', clientCertificateData: '', clientKeyData: '', serverUrl: 'https://']
+
+}
+}
+
+
+
 }
 }
