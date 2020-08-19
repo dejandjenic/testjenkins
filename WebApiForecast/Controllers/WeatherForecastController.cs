@@ -26,7 +26,7 @@ namespace WebApiForecast.Controllers
         [HttpGet("health")]
         public string Health()
         {
-            return "ok";
+            return "health:ok";
         }
 
         [HttpGet]
