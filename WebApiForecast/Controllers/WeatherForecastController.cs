@@ -31,7 +31,7 @@ namespace WebApiForecast.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = "Desc:"+Summaries[rng.Next(Summaries.Length)]
+                Summary = "Description:"+Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
         }
