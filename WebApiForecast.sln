@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{762B32FB-3374-4321-9A69-799DDEDEBA8B}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		dpl.yaml = dpl.yaml
+		Jenkinsfile = Jenkinsfile
 	EndProjectSection
 EndProject
 Global
