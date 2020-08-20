@@ -27,7 +27,7 @@ stage('Build'){
 stage('Kube'){
 steps{
 
-kubernetesDeploy(configs: "dpl.yaml", kubeconfigId: "mykubeconfig")
+sh 'kubectl apply -f dpl.yaml'
 
 }
 }
