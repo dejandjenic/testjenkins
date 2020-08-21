@@ -28,7 +28,7 @@ stage('Kube'){
 steps{
 sh 'ls'
 sh 'cat dpl.yaml'
-sh 'kubectl config view'
+sh 'kubectl apply -f dpl.yaml'
 
 }
 }
