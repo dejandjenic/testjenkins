@@ -26,6 +26,7 @@ stage('Build'){
 
 stage('Kube'){
 steps{
+sh 'ls'
 sh 'cat dpl.yaml'
 sh 'kubectl apply -f dpl.yaml'
 
