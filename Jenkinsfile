@@ -25,12 +25,15 @@ stage('Build'){
 
 
 stage('Kube'){
-steps{
-sh 'ls'
-sh 'cat dpl.yaml'
-sh 'kubectl apply -f dpl.yaml'
+	input{
+	message "continue to prod?"
+	}
+	steps{
+	sh 'ls'
+	sh 'cat dpl.yaml'
+	sh 'kubectl apply -f dpl.yaml'
 
-}
+	}
 }
 
 
