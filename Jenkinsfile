@@ -17,6 +17,12 @@ stage('Build'){
 			sh 'docker tag jenkins-demo:${BUILD_NUMBER} jenkins-demo:latest'
 			sh 'docker tag jenkins-demo:${BUILD_NUMBER} 192.168.0.173:32138/jenkins-demo:latest '
 			sh 'docker push 192.168.0.173:32138/jenkins-demo:latest'
+
+			variables = [ "job": currentBuild.rawBuild.getFullDisplayName() ]
+template = libraryResource('report.txt.groovy')
+output = helpers.renderTemplate(template, variables)
+
+sh 'echo ''{output}'''
 			
 	}
 }
